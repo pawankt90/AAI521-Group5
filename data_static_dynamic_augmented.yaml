@@ -4,7 +4,7 @@ test: /content/drive/My Drive/dataset/Apply_Grayscale/Apply_Grayscale/Vehicles_D
 
 nc: 5
 names: ['Bus', 'Car', 'Motorcycle', 'Pickup', 'Truck']
-
+class_weights: [2.0, 0.5, 1.5, 1.5, 2.5]
 
 roboflow:
   workspace: hana-v8gbl
